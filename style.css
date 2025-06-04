@@ -237,12 +237,39 @@ transform: scale(1.1);
 
 /* footer */
 .site-footer {
-  background-color: var(--text-color);
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
   font-size: 0.9rem;
-  color: #0f0000;
-  margin: 0 0 6px 0;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+.brand{
+  color: var(--text-color);
+  font-size: 2rem;
+  transition: 0.6s ease;
+}
+.brand:hover{
+  color: #000000;
+  text-shadow: 0 0 25px #6B705C, 0 0 50px #6B705C;
+  transform: scale(1.1);
+  transform:rotate(180deg);
+}
+.icon-uparrow {
+  display: flex;
+  margin-left: auto;
+  width: 30px;
+  height: 30px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: #F5F4EB;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #6B705C;
+  border-radius: 10px;
 }
 

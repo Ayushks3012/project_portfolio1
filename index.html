@@ -23,8 +23,9 @@
   <title>Ayz Portfolio</title>
 </head>
 <body>
+
   <!-- navbar -->
-  <nav>
+  <nav id="container">
     <div class="left"><a href="/">Ayush ks</a></div>
 
     <div class="right"><a href="https://github.com/Ayushks3012" target="_blank"><i class="fa-brands fa-github"></i><span>github</span></a>
@@ -38,7 +39,7 @@
   <main>
     <!-- section1:hero -->
     <section class="hero-section">
-      <div class="text"><h2 class="animate__animated animate__rubberBand">H'i im <span class="ayush-hero">Ayush</span> 𓆝 𓆟 𓆞 𓆝</h2>
+      <div class="text"><h2 class="animate__animated animate__pulse">H'i im <span class="ayush-hero">Ayush</span> 𓆝 𓆟 𓆞 𓆝</h2>
       <p>This is my official portfolio website to describe all details and work experience in web development </p>
       <div class="links">
         <a href="#skills">
@@ -54,6 +55,11 @@
         <a href="#contact">
           <i class="fa-solid fa-envelope"></i>
           <span>contact</span>
+        </a>
+
+        <a id="download" href="./assets/AYUSHRESUME.pdf" download>
+          <i class="fa-solid fa-download" style="color: #6B705C;"></i>
+          <span class="cv">Download-CV</span>
         </a>
       </div>
     </div>
@@ -107,7 +113,10 @@
 
       <div class="group">
         <div class="person-details">
-          <img src="./assets/testimony-headshot.webp">
+          <img src="./assets/about-headshot.webp" data-aos="fade-zoom-in"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="0">
           <p>Ayush ks</p>
           <p>a curious mind with a keyboard and a mission.</p>
         </div>
@@ -152,7 +161,13 @@
       <footer class="site-footer">
         <p>© 2025 Ayush ks. All rights reserved.</p>
         <p>Designed & built by <span class="footer-ayush">Ayush KS</span><i class="fa-solid fa-heart"></i></p>
+
+        <div class="icon-uparrow">
+        <a href="#container"><i class="fa-solid fa-arrow-down brand"></i></a>
+      </div>
+      
       </footer>
+      
   </main>
 </body>
 <!-- AOS cdn Script -->
